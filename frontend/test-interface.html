@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>AI Banquet Chatbot</title>
+</head>
+<body>
+  <h1>AI Banquet Chatbot</h1>
+  <div id="chat"></div>
+  <input id="input" placeholder="Type a message" />
+  <button onclick="sendMessage()">Send</button>
+
+  <script>
+    const sessionId = Math.random().toString(36).substring(2);
+
+    async function sendMessage() {
+      const input = document.getElementById('input');
+      const message = input.value;
+      input.value = '';
+      addMessage('You', message);
+
+      const res = await fetch('/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message, sessionId })
+      });
+      const data = await res.json();
+      addMessage('AI', data.reply);
+    }
+
+    function addMessage(who, text) {
+      const div = document.getElementById('chat');
+      const p = document.createElement('p');
+      p.textContent = `${who}: ${text}`;
+      div.appendChild(p);
+      div.scrollTop = div.scrollHeight;
+    }
+  </script>
+</body>
+</html>

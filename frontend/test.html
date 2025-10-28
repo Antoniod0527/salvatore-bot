@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>AI Chat Test</title>
+</head>
+<body>
+  <h1>AI Chat Test</h1>
+  <input type="text" id="message" placeholder="Type your message" />
+  <button id="send">Send</button>
+  <p><strong>Reply:</strong> <span id="reply"></span></p>
+
+  <script>
+    document.getElementById('send').addEventListener('click', async () => {
+      const message = document.getElementById('message').value;
+      const response = await fetch('http://localhost:3000/chat', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify({ message })
+      });
+      const data = await response.json();
+      document.getElementById('reply').innerText = data.reply;
+    });
+  </script>
+</body>
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Banquet Booking Test</title>
+</head>
+<body>
+  <h1>Banquet Booking Test</h1>
+
+  <input id="name" placeholder="Name" /><br/>
+  <input id="email" placeholder="Email" /><br/>
+  <input id="phone" placeholder="Phone" /><br/>
+  <input id="date" type="date" /><br/>
+  <input id="startTime" type="time" /><br/>
+  <input id="endTime" type="time" /><br/>
+  <input id="partySize" type="number" placeholder="Party Size" /><br/>
+  <input id="foodNotes" placeholder="Food Notes" /><br/>
+  <input id="contactBy" placeholder="Contact By" /><br/>
+  <button id="send">Send Booking</button>
+
+  <p><strong>Result:</strong> <span id="result"></span></p>
+
+  <script>
+    document.getElementById('send').addEventListener('click', async () => {
+      const payload = {
+        name: document.getElementById('name').value,
+        email: document.getElementById('email').value,
+        phone: document.getElementById('phone').value,
+        date: document.getElementById('date').value,
+        startTime: document.getElementById('startTime').value,
+        endTime: document.getElementById('endTime').value,
+        partySize: document.getElementById('partySize').value,
+        foodNotes: document.getElementById('foodNotes').value,
+        contactBy: document.getElementById('contactBy').value
+      };
+
+      const response = await fetch('http://localhost:3000/book', {
+        method: 'POST',
+        headers: { 'Content-Type': 'application/json' },
+        body: JSON.stringify(payload)
+      });
+
+      const data = await response.json();
+      document.getElementById('result').innerText = JSON.stringify(data, null, 2);
+    });
+  </script>
+</body>
+</html>

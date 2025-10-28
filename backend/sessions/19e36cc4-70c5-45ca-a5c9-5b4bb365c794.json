@@ -1,0 +1,18 @@
+[
+  {
+    "sender": "user",
+    "text": "i would like to book a banquet"
+  },
+  {
+    "sender": "assistant",
+    "text": "Ciao! Benvenuto! I’d be delighted to help you arrange your banquet. 🎉 Can you please tell me what type of event you're planning—perhaps a wedding, birthday, or something corporate?"
+  },
+  {
+    "sender": "user",
+    "text": "grad party"
+  },
+  {
+    "sender": "assistant",
+    "text": "Ah, una festa di laurea! Magnifico! 🎓 When is this special celebration taking place? Do you have a particular date in mind?"
+  }
+]

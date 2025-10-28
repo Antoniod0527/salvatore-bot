@@ -1,0 +1,18 @@
+[
+  {
+    "sender": "user",
+    "text": "I would like to book a banqet"
+  },
+  {
+    "sender": "assistant",
+    "text": "Of course! I’d love to help you with that. Can you please tell me the date you have in mind for your banquet?"
+  },
+  {
+    "sender": "user",
+    "text": "November 1st 2025"
+  },
+  {
+    "sender": "assistant",
+    "text": "Great choice! Now, what time are you looking to start your banquet on that day?"
+  }
+]

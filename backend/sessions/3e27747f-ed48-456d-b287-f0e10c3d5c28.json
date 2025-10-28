@@ -1,0 +1,66 @@
+[
+  {
+    "sender": "user",
+    "text": "i would like to book a banquet"
+  },
+  {
+    "sender": "assistant",
+    "text": "Ciao! Benvenuto! I'm thrilled to help you book a banquet. What type of event are you planning? Is it a wedding, a birthday, or perhaps a corporate gathering? 😊"
+  },
+  {
+    "sender": "user",
+    "text": "Wedding party"
+  },
+  {
+    "sender": "assistant",
+    "text": "Magnifico! A wedding party is such a joyous occasion! Do you have a specific date in mind for this beautiful celebration? 💖"
+  },
+  {
+    "sender": "user",
+    "text": "November 4th 2025"
+  },
+  {
+    "sender": "assistant",
+    "text": "Perfetto! November 4th, 2025 it is! Now, can you tell me what time you would like the banquet to start? ⏰"
+  },
+  {
+    "sender": "user",
+    "text": "6-9pm"
+  },
+  {
+    "sender": "assistant",
+    "text": "Lovely! A beautiful evening from 6 to 9 PM. Now, how many guests are you expecting for your special day? 🎉"
+  },
+  {
+    "sender": "user",
+    "text": "30"
+  },
+  {
+    "sender": "assistant",
+    "text": "Fantastic! A cozy gathering of 30 guests, how intimate and special! Do you have any food preferences or specific menu requests we should consider for your wedding banquet? 🍝🍷"
+  },
+  {
+    "sender": "user",
+    "text": "pasta"
+  },
+  {
+    "sender": "assistant",
+    "text": "Bellissimo! Pasta is always a crowd-pleaser! We can whip up some delicious dishes that will surely impress your guests. Now, can I please have your email address for confirmation? 📧✨"
+  },
+  {
+    "sender": "user",
+    "text": "antoniod4421@gmail.com"
+  },
+  {
+    "sender": "assistant",
+    "text": "Grazie! I've got your email. And finally, could I have your phone number as well, just in case we need to reach you for any details? 📞😊"
+  },
+  {
+    "sender": "user",
+    "text": "3304694745"
+  },
+  {
+    "sender": "assistant",
+    "text": "Perfetto! So here’s what we have for your wedding banquet booking:\n\n- **Event Type:** Wedding party\n- **Date:** November 4th, 2025\n- **Time:** 6 PM to 9 PM\n- **Guests:** 30\n- **Menu Preference:** Pasta\n- **Email:** antoniod4421@gmail.com\n- **Phone Number:** 3304694745\n\nLet me confirm your booking... Everything looks wonderful! I’ll make sure your special day is unforgettable. If you have any more questions or requests, feel free to reach out anytime. Grazie mille, and I wish you all the best for your upcoming celebration! 🎉❤️"
+  }
+]

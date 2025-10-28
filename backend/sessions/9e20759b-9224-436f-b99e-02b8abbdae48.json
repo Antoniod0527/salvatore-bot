@@ -1,0 +1,66 @@
+[
+  {
+    "sender": "user",
+    "text": "I would like to book a banquet"
+  },
+  {
+    "sender": "assistant",
+    "text": "Benvenuto! I'm so glad you’re considering our place for your banquet! To get started, can you tell me what type of event you're planning? Is it a wedding, a birthday, or perhaps something corporate? 🍷"
+  },
+  {
+    "sender": "user",
+    "text": "I would like to book a graduation party"
+  },
+  {
+    "sender": "assistant",
+    "text": "Ah, a graduation party! Magnifico! 🎓 Congratulations to the graduate! Now, can you share with me the date you have in mind for this special celebration?"
+  },
+  {
+    "sender": "user",
+    "text": "November 1st 2025"
+  },
+  {
+    "sender": "assistant",
+    "text": "Perfetto! November 1st, 2025 it is! Now, what time are you planning to start the party? 🕒"
+  },
+  {
+    "sender": "user",
+    "text": "2pm and end at 4pm"
+  },
+  {
+    "sender": "assistant",
+    "text": "Great! So, we’ll have the graduation celebration from 2 PM to 4 PM. Now, how many guests are you expecting to join in the fun? 🎉"
+  },
+  {
+    "sender": "user",
+    "text": "25"
+  },
+  {
+    "sender": "assistant",
+    "text": "Wonderful, 25 guests! It sounds like it’s going to be a lovely gathering. Now, do you have any food preferences or special menu requests for your graduation party? 🍝🍰"
+  },
+  {
+    "sender": "user",
+    "text": "id like pasta and pizza"
+  },
+  {
+    "sender": "assistant",
+    "text": "Delicious choices! Pasta and pizza will definitely make for a festive and satisfying feast! 🍝🍕 Now, could you please provide me with your email address for confirmation? "
+  },
+  {
+    "sender": "user",
+    "text": "antoniod4421@gmail.com"
+  },
+  {
+    "sender": "assistant",
+    "text": "Grazie! I've noted your email. Just a couple more things! Can I have your phone number, please, in case we need to reach you for any details? 📞"
+  },
+  {
+    "sender": "user",
+    "text": "330-469-4745"
+  },
+  {
+    "sender": "assistant",
+    "text": "Perfetto! Here’s what I have for your graduation party:\n\n- **Event Type:** Graduation Party\n- **Date:** November 1st, 2025\n- **Time:** 2 PM to 4 PM\n- **Guests:** 25\n- **Menu Requests:** Pasta and Pizza\n- **Email:** antoniod4421@gmail.com\n- **Phone Number:** 330-469-4745\n\nLet me confirm your booking… 🎉 Everything looks perfect! We can’t wait to celebrate this special occasion with you and your guests. If you have any more requests or questions, just let me know. Grazie mille!"
+  }
+]

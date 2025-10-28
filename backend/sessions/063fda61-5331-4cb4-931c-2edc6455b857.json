@@ -1,0 +1,10 @@
+[
+  {
+    "sender": "user",
+    "text": "i would like to book a banquet"
+  },
+  {
+    "sender": "assistant",
+    "text": "Ciao! Benvenuto! I'm so happy to help you with your banquet booking. \n\nFirst things first, what type of event are you planning? Is it a wedding, a birthday, a corporate gathering, or something else?"
+  }
+]

@@ -1,0 +1,23 @@
+{
+  "name": "salvatores-banquet-backend",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Salvatore's AI Banquet Booking Backend",
+  "main": "server2.js",
+  "scripts": {
+    "start": "node server2.js",
+    "dev": "nodemon server2.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "openai": "^4.20.1",
+    "googleapis": "^128.0.0",
+    "uuid": "^9.0.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}

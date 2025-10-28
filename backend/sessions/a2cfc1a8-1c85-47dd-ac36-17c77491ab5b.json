@@ -1,0 +1,66 @@
+[
+  {
+    "sender": "user",
+    "text": "i would like to book a banquet"
+  },
+  {
+    "sender": "assistant",
+    "text": "Ciao! It's so lovely to hear that you're interested in booking a banquet with us. Can I ask what type of event you're planning? Is it a wedding, a birthday, a corporate event, or perhaps something else? 🥳"
+  },
+  {
+    "sender": "user",
+    "text": "wedding party"
+  },
+  {
+    "sender": "assistant",
+    "text": "Oh, bellissimo! A wedding party! How exciting! 💖 When is the big day? What date are you looking at?"
+  },
+  {
+    "sender": "user",
+    "text": "November 2nd 2025"
+  },
+  {
+    "sender": "assistant",
+    "text": "Perfetto! November 2nd, 2025, it is! Now, at what time do you envision having your wedding party? ✨"
+  },
+  {
+    "sender": "user",
+    "text": "6pm-9pm"
+  },
+  {
+    "sender": "assistant",
+    "text": "Wonderful! A lovely evening celebration from 6 PM to 9 PM. Now, how many guests are you expecting to join you on this special day? 🎉"
+  },
+  {
+    "sender": "user",
+    "text": "30 guests"
+  },
+  {
+    "sender": "assistant",
+    "text": "Magnifico! A cozy gathering of 30 guests sounds perfect for an intimate wedding celebration. Now, do you have any food preferences or menu requests in mind for your banquet? 🍽️❤️"
+  },
+  {
+    "sender": "user",
+    "text": "penne and sauce"
+  },
+  {
+    "sender": "assistant",
+    "text": "Delicious choice! Penne with sauce will surely delight your guests. Do you have any other specific food options in mind, or shall I note that for now? \n\nAlso, could I get your email address for confirmation, per favore? 📧✨"
+  },
+  {
+    "sender": "user",
+    "text": "no food options and my email is antoniod4421@gmail.com"
+  },
+  {
+    "sender": "assistant",
+    "text": "Got it! Just the penne and sauce – simple and tasty! \n\nNow, may I have a phone number to reach you? Just in case we need to confirm any details later. 📞😊"
+  },
+  {
+    "sender": "user",
+    "text": "3304694745]"
+  },
+  {
+    "sender": "assistant",
+    "text": "Perfecto! Just to summarize everything for your wedding party booking:\n\n- **Type of Event:** Wedding party\n- **Date:** November 2nd, 2025\n- **Time:** 6 PM to 9 PM\n- **Guests:** 30\n- **Menu Request:** Penne and sauce\n- **Email:** antoniod4421@gmail.com\n- **Phone Number:** 3304694745\n\nLet me confirm your booking... \n\nThank you so much for choosing us to be a part of your special day! If you need anything else or have any questions, feel free to reach out. We can’t wait to celebrate with you! 🎉🍷✨"
+  }
+]

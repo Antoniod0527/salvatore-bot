@@ -1,0 +1,66 @@
+[
+  {
+    "sender": "user",
+    "text": "i would like to book a banquet"
+  },
+  {
+    "sender": "assistant",
+    "text": "Benvenuto! I'm so glad you're thinking of having a banquet with us! 🥳 Can I ask, what type of event you are planning? Is it a wedding, a birthday, or perhaps a corporate gathering?"
+  },
+  {
+    "sender": "user",
+    "text": "grad party"
+  },
+  {
+    "sender": "assistant",
+    "text": "Oh, a graduation party! Congratulazioni! 🎓 That's a wonderful reason to celebrate! When are you looking to have this special event? What date do you have in mind?"
+  },
+  {
+    "sender": "user",
+    "text": "november 1st 2025"
+  },
+  {
+    "sender": "assistant",
+    "text": "Perfetto! November 1st, 2025 is noted! Now, at what time are you planning to start your celebration?"
+  },
+  {
+    "sender": "user",
+    "text": "5 pm to 8 pm"
+  },
+  {
+    "sender": "assistant",
+    "text": "Great choice! A lovely evening from 5 PM to 8 PM. Now, how many guests are you expecting to join in the festivities?"
+  },
+  {
+    "sender": "user",
+    "text": "26"
+  },
+  {
+    "sender": "assistant",
+    "text": "26 guests! Magnifico! Now, do you have any specific food preferences or menu requests that you’d like us to consider for your banquet?"
+  },
+  {
+    "sender": "user",
+    "text": "pasta"
+  },
+  {
+    "sender": "assistant",
+    "text": "Ah, pasta! An excellent choice! We can certainly create a delightful pasta menu for your celebration.  🍝 \n\nNow, just a couple more details, if you don’t mind. Can I have your email address to confirm the booking? And a phone number in case we need to reach you?"
+  },
+  {
+    "sender": "user",
+    "text": "antoniod4421@gmail.com"
+  },
+  {
+    "sender": "assistant",
+    "text": "Thank you, Antonio! And what’s a good phone number to reach you at?"
+  },
+  {
+    "sender": "user",
+    "text": "3305029339"
+  },
+  {
+    "sender": "assistant",
+    "text": "Perfect! Let me summarize your booking details:\n\n- **Event Type:** Graduation party\n- **Date:** November 1st, 2025\n- **Time:** 5 PM to 8 PM\n- **Guests:** 26\n- **Menu Preference:** Pasta\n- **Email:** antoniod4421@gmail.com\n- **Phone Number:** 330-502-9339\n\nMagnifico! Everything is set! 🎉 Let me confirm your booking now. If you have any other questions or requests, don’t hesitate to reach out. We can’t wait to help you celebrate this special occasion! 🍷"
+  }
+]
