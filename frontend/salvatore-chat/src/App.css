@@ -1,0 +1,93 @@
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #fdfaf5;
+  margin: 0;
+  padding: 0;
+}
+
+.chat-container {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.chat-header {
+  background-color: #fff8e7;
+  color: #8B0000;
+  text-align: center;
+  padding: 20px;
+  border-bottom: 5px solid #8B0000;
+}
+
+.chat-header h1 {
+  margin: 10px 0 0;
+  font-size: 1.8rem;
+}
+
+.logo {
+  height: 80px;
+  object-fit: contain;
+  margin-bottom: 5px;
+}
+
+.chat-box {
+  flex: 1;
+  padding: 20px;
+  overflow-y: auto;
+  background-color: #fdfaf5;
+}
+
+.message {
+  margin: 10px 0;
+  padding: 12px 16px;
+  border-radius: 20px;
+  max-width: 80%;
+  word-wrap: break-word;
+  font-size: 1.1rem;
+  white-space: pre-wrap; /* THE FIX - preserves spaces and line breaks */
+}
+
+.message.bot {
+  background-color: #fff8e7;
+  color: #333;
+  align-self: flex-start;
+  border: 1px solid #e6d5b8;
+}
+
+.message.user {
+  background-color: #8B0000;
+  color: white;
+  align-self: flex-end;
+}
+
+.input-area {
+  display: flex;
+  padding: 10px;
+  background: #fff8e7;
+  border-top: 3px solid #8B0000;
+}
+
+.input-area input {
+  flex: 1;
+  padding: 12px;
+  border-radius: 20px;
+  border: 1px solid #ccc;
+  font-size: 1rem;
+  outline: none;
+}
+
+.input-area button {
+  margin-left: 10px;
+  background-color: #8B0000;
+  color: white;
+  border: none;
+  border-radius: 20px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.typing {
+  font-style: italic;
+  opacity: 0.7;
+}
